@@ -86,17 +86,21 @@ h6 {
 #start {
   background-image: url(../images/banner.jpg);
   background-size: 100%;
-  padding-inline: 20vh;
+
   padding-block: 25vh;
 }
 
+#start p {
+    padding-inline: 25vw;
+
+}
 #start input {
   border-radius: 5px;
 }
 
 #break {
   background-color: #f04c2f;
-  padding-block: 2rem;
+  padding-block: 1rem;
 }
 
 #testo {

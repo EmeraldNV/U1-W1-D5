@@ -100,6 +100,8 @@ h6 {
   color: white;
 }
 
+
+
 #break h6 {
   font-size: 1rem;
 }
@@ -122,13 +124,11 @@ h6 {
   border-radius: 5px;
   margin-block: 2rem;
 }
-footer {
-  background-color: #25a2c3;
-}
-footer h1,
-ul {
+footer {background-color: #25a2c3;}
+footer h1,ul {
   color: white;
   list-style: none;
+
 }
 
 footer h1 {
@@ -137,7 +137,10 @@ footer h1 {
 
 footer ul {
   padding-block-end: 4rem;
+
 }
+
+
 
 footer a {
   color: white;
@@ -145,6 +148,7 @@ footer a {
 footer ul li {
   padding: 0.2rem;
   opacity: 0.8;
+ 
 }
 
 .copy {
@@ -153,5 +157,5 @@ footer ul li {
 hr {
   width: 60%;
   padding: 0;
-  border-color: white;
+ border-color: white;
 }
