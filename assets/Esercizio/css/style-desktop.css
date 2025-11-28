@@ -149,10 +149,7 @@ footer ul {
   padding-block-end: 4rem;
 }
 
-.address {
-  border-bottom: 1px solid;
-  padding-block-end: 2rem;
-}
+
 
 footer a {
   color: white;
@@ -165,6 +162,13 @@ footer ul li {
 .copy {
   padding-block-start: 2rem;
 }
+
+.address {
+  border-bottom: 1px solid;
+  padding-block-end: 2rem;
+}
+
+
 hr {
   width: 60%;
   padding: 0;
