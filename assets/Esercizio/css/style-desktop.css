@@ -69,7 +69,6 @@ span {
 }
 h6 {
   font-family: "Montserrat";
-
 }
 
 #Logo {
@@ -86,13 +85,13 @@ h6 {
 #start {
   background-image: url(../images/banner.jpg);
   background-size: 100%;
+  background-position: center;
 
-  padding-block: 25vh;
+  padding-block: 15vh;
 }
 
 #start p {
-    padding-inline: 25vw;
-
+  padding-inline: 25vw;
 }
 #start input {
   border-radius: 5px;
@@ -153,8 +152,6 @@ footer ul {
   padding-block-end: 4rem;
 }
 
-
-
 footer a {
   color: white;
 }
@@ -172,7 +169,6 @@ footer ul li {
   padding-block-end: 2rem;
 }
 
-
 hr {
   width: 60%;
   padding: 0;
@@ -185,12 +181,14 @@ hr {
 
 #bloccocard .card {
   display: inline-block;
-  width: 25vw;
+width: 17vh;
+
+
   margin: 1.5rem;
 }
 
 #bloccocard img {
-  height: 25vh;
+  height: 13vh;
 }
 
 #footerstripe {
