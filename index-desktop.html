@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/Esercizio/css/reset.css" />
-    <link rel="stylesheet" href="./assets/Esercizio/css/style.css" />
+    <link rel="stylesheet" href="./assets/Esercizio/css/style-desktop.css" />
 
     <title>Corso Web Developer - Epicode school</title>
     <meta
@@ -18,6 +18,8 @@
       <div id="Logo">
         <img src="./assets/Esercizio/images/logo.png" alt="Logo Epicode" />
       </div>
+    </header>
+    <main>
       <div id="start">
         <h1>Corso Web Developer</h1>
         <p>
@@ -26,27 +28,29 @@
         </p>
         <input type="button" value="PARTIAMO!" id="intermission" />
       </div>
-    </header>
-    <main>
+
       <section>
-        <div id="descrizione1">
-          <h2>Tutti ti cercheranno</h2>
-          <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
-        </div>
-        <div id="descrizione2">
-          <h2>Lavora dove vuoi</h2>
-          <p>Lavora da casa, in riva al mare o in montagna.</p>
-        </div>
-        <div id="immaginedescrizione">
+        <div class="descrizionesezione">
           <img src="./assets/Esercizio/images/notebook.jpg" alt="Foto Notebook" />
         </div>
-        <div id="descrizione3">
-          <h2>Scegli il tuo ruolo</h2>
-          <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
-        </div>
-        <div id="descrizione4">
-          <h2>Lavoro in libertà</h2>
-          <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+        <div class="descrizionesezione">
+          <div class="descrizione">
+            <h2>Tutti ti cercheranno</h2>
+            <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
+          </div>
+          <div class="descrizione">
+            <h2>Lavora dove vuoi</h2>
+            <p>Lavora da casa, in riva al mare o in montagna.</p>
+          </div>
+
+          <div class="descrizione">
+            <h2>Scegli il tuo ruolo</h2>
+            <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
+          </div>
+          <div class="descrizione">
+            <h2>Lavoro in libertà</h2>
+            <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+          </div>
         </div>
       </section>
 
@@ -58,41 +62,46 @@
         </div>
       </div>
       <section>
-        <div class="card">
-          <img src="./assets/Esercizio/images/foto1.jpg" alt="Foto notebook 2" />
-          <div>
-            <h2>Il tuo PC</h2>
-            <p>Se vuoi diventare developer è l’unico strumento di cui hai bisogno.</p>
+        <div id="bloccocard">
+          <div class="card">
+            <img src="./assets/Esercizio/images/foto1.jpg" alt="Foto notebook 2" />
+            <div>
+              <h2>Il tuo PC</h2>
+              <p>Se vuoi diventare developer è l’unico strumento di cui hai bisogno.</p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="./assets/Esercizio/images/foto2.jpg" alt="Foto notebook colori" />
-          <div>
-            <h2>Impara ora</h2>
-            <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.</p>
+          <div class="card">
+            <img src="./assets/Esercizio/images/foto2.jpg" alt="Foto notebook colori" />
+            <div>
+              <h2>Impara ora</h2>
+              <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.</p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="./assets/Esercizio/images/foto3.jpg" alt="Foto riunione" />
-          <div>
-            <h2>Lavora subito</h2>
-            <p>appiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
+          <div class="card">
+            <img src="./assets/Esercizio/images/foto3.jpg" alt="Foto riunione" />
+            <div>
+              <h2>Lavora subito</h2>
+              <p>appiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
+            </div>
           </div>
         </div>
       </section>
-
-      <footer>
+    </main>
+    <footer>
+      <div id="contatti">
         <h1>Contattaci</h1>
         <ul>
-          <li><h6><i class="fas fa-phone-square"></i><a href="">(+39) 11223456</a></h6></li>
-          <li><h6><i class="fas fa-envelope"></i><a href="mailto:info@epicode.school">info@epicode.school</a><h6></li>
-          <li><h6>Via Appia 1 - 00100 Roma (RM)</h6></li>
-<hr>
-          <h6 class="copy"> &#169; 2021. Immagini di <a href="Pixabay">Pixabay</a></h6>
+          <li>
+            <h6><i class="fas fa-phone-square"></i><a href="">(+39) 11223456</a></h6>
+          </li>
+          <li>
+            <h6><i class="fas fa-envelope"></i><a href="mailto:info@epicode.school">info@epicode.school</a></h6>
+          </li>
+          <li class="address"><h6>Via Appia 1 - 00100 Roma (RM)</h6></li>
+          <h6 class="copy">&#169; 2021. Immagini di <a href="Pixabay">Pixabay</a></h6>
         </ul>
-        
-         
-      </footer>
-    </main>
+      </div>
+      <div id="footerstripe"></div>
+    </footer>
   </body>
 </html>

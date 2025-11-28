@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
+main,
+footer {
   text-align: center;
 }
 
@@ -53,35 +54,44 @@ section img {
   width: 100%;
 }
 
+.descrizionesezione {
+  display: inline-block;
+}
+
+.descrizionesezione img {
+  border-radius: 50%;
+  width: 90%;
+}
+
 span {
   font-weight: 300;
   font-size: 0.9rem;
 }
 h6 {
   font-family: "Montserrat";
+
 }
 
 #Logo {
   background-color: black;
   box-sizing: content-box;
-  width: 100%;
+  height: 10vh;
 }
 
 #Logo img {
-  width: 30vw;
-  padding: 2rem;
+  width: 10vw;
+  padding: 1em;
 }
 
 #start {
   background-image: url(../images/banner.jpg);
-  background-size: 150%;
-  background-position: center;
-  padding: 2rem;
+  background-size: 100%;
+
+  padding-inline: 20vh;
+  padding-block: 25vh;
 }
 
 #start input {
-  margin: 1rem;
-
   border-radius: 5px;
 }
 
@@ -109,9 +119,9 @@ h6 {
   font-size: 1rem;
 }
 
-#immaginedescrizione img {
+#descrizione img {
   border-radius: 50%;
-  width: 70%;
+  width: 50vw;
   padding: 1rem;
 }
 
@@ -122,23 +132,28 @@ h6 {
   border-radius: 5px;
   margin-block: 2rem;
 }
-footer {background-color: #25a2c3;}
-footer h1,ul {
+footer {
+  background-color: #25a2c3;
+}
+footer h1,
+ul {
   color: white;
   list-style: none;
-
 }
 
 footer h1 {
-  padding: 2rem;
+  padding-block: 3rem;
+  font-size: 3rem;
 }
 
 footer ul {
   padding-block-end: 4rem;
-
 }
 
-
+.address {
+  border-bottom: 1px solid;
+  padding-block-end: 2rem;
+}
 
 footer a {
   color: white;
@@ -146,14 +161,37 @@ footer a {
 footer ul li {
   padding: 0.2rem;
   opacity: 0.8;
- 
 }
 
 .copy {
-  padding: 1rem;
+  padding-block-start: 2rem;
 }
 hr {
   width: 60%;
   padding: 0;
- border-color: white;
+  border-color: white;
+}
+
+#bloccocard {
+  display: inline-block;
+}
+
+#bloccocard .card {
+  display: inline-block;
+  width: 25vw;
+  margin: 1.5rem;
+}
+
+#bloccocard img {
+  height: 25vh;
+}
+
+#footerstripe {
+  height: 3rem;
+  background-color: black;
+}
+
+#contatti {
+  padding-inline: 40vw;
+  text-align: start;
 }
